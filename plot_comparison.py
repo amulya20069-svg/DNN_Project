@@ -5,10 +5,10 @@ loss_names = ["KL", "CE", "Custom"]
 # put YOUR values here
 loss_names = ["KL", "CE", "Custom"]
 
-kl_vals = [1.1777, 1.4003, 1.7042]
-jsd_vals = [0.2741, 0.2754, 0.2848]
-cos_vals = [0.6290, 0.6061, 0.5757]
-pearson_vals = [0.1405, 0.1184, 0.0823]
+kl_vals = [0.8086, 1.0207, 1.0862]
+jsd_vals = [0.1655, 0.2125, 0.2051]
+cos_vals = [0.7663, 0.7005, 0.7006]
+pearson_vals = [0.2405, 0.1858, 0.1536]
 
 plt.figure(figsize=(10, 6))
 

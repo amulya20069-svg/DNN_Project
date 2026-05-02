@@ -13,7 +13,7 @@ import torchvision.models as models
 
 
 BATCH_SIZE = 128
-EPOCHS = 5
+EPOCHS = 20
 LR = 0.001
 LAMBDA = 0.5
 

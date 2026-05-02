@@ -49,7 +49,7 @@ test_idx = np.load("data/test_idx.npy")
 test_dataset = Subset(dataset, test_idx)
 test_loader = DataLoader(test_dataset, batch_size=64, shuffle=False)
 model = CIFAR10HResNet18().to(DEVICE)
-model.load_state_dict(torch.load("checkpoints/best_custom.pth"))
+model.load_state_dict(torch.load("checkpoints/best_custom.pth", map_location=DEVICE))
 model.eval()
 kl_losses = []
 jsd_list = []

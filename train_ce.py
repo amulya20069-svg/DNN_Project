@@ -15,7 +15,7 @@ import torchvision.models as models
 
 # SETTINGS
 BATCH_SIZE = 128
-NUM_EPOCHS = 5
+NUM_EPOCHS = 20
 LR = 0.001
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
